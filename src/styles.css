@@ -1,0 +1,453 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+.Footer {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  font-size: 14px;
+  font-weight: 600;
+  transform: translate(-50%, 0px);
+  background: white;
+}
+ul.pagination {
+  display: flex;
+}
+
+ul.pagination {
+}
+li.paginate_button.page-item.active {
+  background: #b1622a;
+}
+tr.odd {
+  background: #ffebeb;
+}
+
+table#example {
+  background-color: #ffffff !important;
+  box-shadow: 0 3px 7px 2px #dbdbdb94;
+  width: 96%;
+  margin: 0px auto 0;
+  border-radius: 6px;
+  padding: 0 49px;
+}
+tr {
+  background: #75a175;
+  height: 44px;
+  font-family: monospace;
+}
+td {
+  text-align: center;
+}
+
+ul.pagination li a {
+  color: #ffff;
+  text-decoration: none;
+}
+.App {
+  text-align: center;
+  padding: 0px 22px 22px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.form-control {
+  margin-bottom: 22px;
+}
+table.table.table-striped.table-bordered.table-hover {
+  margin-top: 32px;
+}
+button.btn {
+  margin: 22px 0px;
+}
+.background {
+  background-position: center center;
+  background-image: url(http://avantage.bold-themes.com/marketing/wp-content/uploads/sites/4/2019/04/img-slider-01.jpg);
+  width: 1309px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 999;
+  opacity: 1;
+  border-radius: 16px;
+}
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  max-width: 1380px !important;
+}
+
+.awesome {
+  font-family: Poppins, sans-serif;
+  font-style: inherit;
+  font-size: 22px;
+  margin-bottom: 0;
+  color: #343434;
+}
+
+input[type="text"] {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-bottom: 22px;
+}
+button.btn.btn-success {
+  background: #4573f5;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgb(69 115 245 / 64%);
+  font-weight: 600;
+  margin-top: 25px;
+  height: 53px;
+  width: 242px;
+}
+form {
+  background-color: #5c9af800 !important;
+  box-shadow: 0 3px 7px 2px #dbdbdb94;
+  width: 100%;
+  margin: 10px auto 40px;
+  border-radius: 6px;
+  padding: 32px 32px 0px;
+  max-width: 444px;
+  border: 1px dotted #4572f4;
+  transition: 0.6s;
+}
+
+button.btn.btn-info {
+  background: #4573f5;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgb(69 115 245 / 64%);
+  font-weight: 600;
+  margin-top: 25px;
+  height: 53px;
+  width: 242px;
+}
+.table {
+  margin-bottom: 92px;
+}
+table.table.table-striped.table-bordered.table-hover {
+  white-space: nowrap;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgb(247 243 237) !important;
+}
+
+.red {
+  color: #970c0c;
+  cursor: pointer;
+}
+button.red {
+  background: #802c2c;
+  border: none;
+  padding: 5px 23px;
+  margin-top: 5px;
+  color: #fff;
+}
+
+.logo img {
+  width: 245px;
+  padding: 22px 0px;
+}
+
+header.sss {
+  text-align: left;
+  padding: 222px 22px;
+}
+header.sss h6 {
+  font-size: 36px;
+  font-style: italic;
+  color: #01364a;
+  text-decoration: none;
+  text-shadow: 0 2px 5px rgb(60 60 60);
+  font-weight: 800;
+  font-family: futura;
+}
+header.sss h1 {
+  font-size: 50px;
+  font-style: italic;
+  color: #000000;
+  text-decoration: none;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  font-weight: 800;
+  font-family: futura;
+}
+header.sss h4 {
+  font-size: 60px;
+  font-family: futura;
+  font-style: italic;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  font-weight: 800;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.hello .bg-dark {
+  background-color: #ffffff !important;
+  box-shadow: 0 3px 7px 2px #dbdbdb94;
+  width: 96%;
+  margin: 32px auto 0;
+  border-radius: 6px;
+  padding: 0 49px;
+  height: 80px;
+}
+.navbar-dark .navbar-toggler-icon {
+  background: #333333;
+}
+.hello a {
+  color: #343434;
+  font-size: 13px;
+  text-decoration: none;
+  background-color: transparent;
+  font-family: Poppins, sans-serif;
+}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark:before {
+  position: absolute;
+  content: "";
+  top: -30px;
+  left: -70px;
+  background: url(https://invsta.com/static/media/demoarrow2.png) no-repeat
+    center;
+  width: 150px;
+  height: 150px;
+  z-index: -1;
+  background-size: 150px;
+  transform: rotate(-260deg);
+}
+.hello .navbar-expand-lg .navbar-nav .nav-link:hover {
+  background: #b3c5f8;
+}
+.hello .navbar-expand-lg .navbar-nav .nav-link {
+  transition: 0.5s;
+}
+a.nav-link a {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+  margin-bottom: 44px;
+}
+.hello .mr-auto,
+.mx-auto {
+  margin-left: auto !important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+span.navbar-brand a {
+  color: #333333;
+  font-size: 17px;
+  font-weight: 600;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#ripple {
+  display: flex;
+  position: absolute;
+  left: 32px;
+  margin-top: 50px;
+}
+.circle {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border: 30px solid #e69f37;
+  border-radius: 50%;
+  animation: wave 1s linear 0s infinite;
+}
+.circle:nth-child(1) {
+  border: 1px solid #474648;
+  animation: none;
+}
+
+.circle:nth-child(2) {
+  animation: none;
+}
+
+.circle:nth-child(3) {
+  animation-delay: 0ms;
+}
+
+.circle:nth-child(4) {
+  animation-delay: 300ms;
+}
+
+.circle:nth-child(5) {
+  animation-delay: 600ms;
+}
+
+@keyframes wave {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+tr {
+  background: #ffffff;
+  height: 44px;
+  font-family: Poppins, sans-serif;
+}
+
+div#example_length label {
+  display: flex;
+  width: 100%;
+  max-width: 292px;
+  margin: 0px 24px;
+}
+
+div#example_filter label {
+  display: flex;
+  width: 100%;
+  max-width: 232px;
+  margin-left: auto;
+  position: relative;
+  right: 31px;
+}
+
+select.custom-select.custom-select-sm.form-control.form-control-sm {
+  margin: 0px 14px;
+}
+ul.pagination {
+  margin-left: auto;
+  width: 28%;
+  margin-top: 22px;
+}
+div#example_info {
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 26px;
+}
+th {
+  font-weight: 400;
+  color: #343434;
+}
+input.form-control.form-control-sm {
+  margin: 0px 8px;
+}
+.green-sky {
+  color: #1bad77;
+}
+.Home {
+  background: #6ba3f624;
+  padding: 20px;
+  border-radius: 4px;
+}
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #1bad77;
+  border: #1bad77;
+}
+ul.pagination li a {
+  color: #1bad77;
+  text-decoration: none;
+}
+ul.view:after {
+  content: "";
+  background: url(https://invsta.com/static/media/tri16.png);
+  position: absolute;
+  top: 166px;
+  display: block;
+  width: 222px;
+  height: 212px;
+  background-repeat: no-repeat;
+  right: 265px;
+}
+@media screen and (max-width: 600px) {
+  .resposive {
+    overflow: auto;
+  }
+  div#example_length label {
+    max-width: 192px;
+  }
+  div#example_filter {
+    margin-top: 12px;
+  }
+  div#responsive-navbar-nav {
+    background: #fff;
+  }
+  ul.view:after {
+    display: none;
+  }
+}
+ul.view {
+  background-color: #5c9af800 !important;
+  box-shadow: 0 3px 7px 2px #dbdbdb94;
+  width: 100%;
+  margin: 32px auto 0;
+  border-radius: 6px;
+  padding: 32px;
+  max-width: 444px;
+  border: 1px dotted #4572f4;
+  transition: 0.6s;
+}
+ul.view li {
+  text-align: left;
+  font-family: Poppins, sans-serif;
+  line-height: 44px;
+  border-bottom: 1px dotted;
+}
+button.btn.btn-success,
+button.btn.btn-info {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  width: 162px;
+  height: 42px;
+  font-size: 15px;
+}
+button.btn.btn-info {
+  margin-top: 8px;
+}
+.color_change {
+  color: #4674f5;
+}
